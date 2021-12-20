@@ -1,0 +1,247 @@
+body {
+  background-color: #fdedd9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #4d4131;
+}
+
+hr {
+  color: grey;
+}
+
+.navbar {
+  padding: 0;
+  background-color: #fdedd9;
+  /* background-color: #fffaf3; */
+}
+
+.navbar-nav {
+  margin-right: 80px;
+  margin-top: 40px;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.home-container {
+  height: 100%;
+}
+
+.home-title-container {
+  padding-left: 15%;
+}
+.home-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: 0.16rem;
+  line-height: 2;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.home-img {
+  width: 60%;
+  /* margin-right: 0px; */
+}
+
+.container-fluid {
+  height: 100vh;
+  padding: 0;
+}
+
+#projects .container-fluid {
+  background-color: #fffaf3;
+  padding: 150px 24% 100px;
+  height: auto;
+}
+
+.projects-title {
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projects-card {
+  margin: 7% 0;
+  /* padding: 50px; */
+  /* background-color: #fdedd9; */
+  /* background-color: #fcf5df; */
+  /* background-color: #f6f8d7; */
+  background-color: white;
+  /* background-color: #f4f0f7; */
+  /* margin-right: 10%; */
+}
+
+.project-card-text {
+  /* padding-right: 7%; */
+  padding: 50px 70px;
+}
+.projects-card-img-box {
+  padding: 0;
+}
+
+.project-card-img {
+  width: 100%;
+}
+
+.project-tag {
+  background-color: #ecd9fd;
+  /* background-color: #fffdfa; */
+  border-radius: 15px;
+  padding: 7px 20px;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  letter-spacing: 0.09rem;
+  line-height: 2;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0.05rem;
+  margin-bottom: 50px;
+}
+
+.tags-container {
+  padding: 25px 0 40px;
+}
+
+.img-box {
+  background-color: #f6f8d7;
+  padding: 30px 30px 0;
+}
+
+#aboutMe .container-fluid {
+  /* padding: 150px 15% 100px 10%; */
+  padding: 150px 0% 150px 31%;
+  height: auto;
+}
+
+.profile-img {
+  width: 50%;
+  height: 50%;
+  padding-right: 50px;
+}
+
+.aboutMe-title {
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+.aboutMe-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  line-height: 2;
+  margin-bottom: 5%;
+}
+
+.aboutMe-title-2 {
+  font-size: 2.18rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+.more-info-box {
+  margin: 70px 15% 100px 0;
+}
+
+.aboutMe-text {
+  margin-bottom: 3%;
+}
+
+.skill-tags-container {
+  padding-left: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.skill-tag {
+  background-color: #ecd9fd;
+  /* background-color: #fffdfa; */
+  border-radius: 15px;
+  padding: 7px 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.about-me-text-box {
+  padding-right: 10%;
+}
+
+.resume-btn {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #8d7659;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: transparent;
+  font-weight: 600;
+  color: #4d4131;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.resume-btn:hover {
+  background-color: #4d4131;
+  color: white;
+  font-weight: 500;
+  border-color: #4d4131;
+}
+
+.social-media-icon {
+  color: #8d7659;
+  margin: 0 15px;
+  font-size: 1.5rem;
+  /* vertical-align: text-bottom; */
+}
+
+.social-media-icon:hover {
+  color: #4d4131;
+}
+
+.footer-container {
+  background-color: #8d7659;
+  height: 90px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.footer-img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1500px) {
+  #projects .container-fluid {
+    padding: 150px 15% 100px;
+  }
+
+  #aboutMe .container-fluid {
+    padding: 150px 0% 150px 20%;
+    height: auto;
+  }
+}

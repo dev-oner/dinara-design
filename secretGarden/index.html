@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Secret Garden</title>
+    <!-- CSS styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quando&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/41daf2c5db.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid ">
+        <h1 class="big-heading">Secret Garden</h1>
+        <p class="subheading">Fall-Winter 2021</p>
+
+        <div class="row">
+          <div class="col-6 align-self-center">
+            <p>
+              This project was for my Google UX Design Professional Certificate
+              Program at Coursera.
+            </p>
+            <p class="mb-1">
+              The goal of the course was to learn the foundatiton of UX Design
+              processes, including:
+            </p>
+            <ul>
+              <li>Empathizing with users;</li>
+              <li>Defining user pain points;</li>
+              <li>Coming up with ideas for design solutions;</li>
+              <li>Creating wireframes, mockups, and prototypes;</li>
+              <li>Testing designs through usability studies;</li>
+              <li>Iterating on designs based on feedback.</li>
+            </ul>
+            <p>Tools used: Figma, pen and paper</p>
+            <p>
+              Note! This was a study project, so Secret Garden doesn’t exist
+            </p>
+          </div>
+          <div class="col-6">
+            <img class="heading-img" src="../images/secretGarden.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section id="overview">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="paragraph-heading">Project overview</h1>
+          </div>
+          <div class="col">
+            <h2>The product</h2>
+            <p>
+              Secret Garden is a new stylish restaurant in Almaty, Kazakhstan.
+              It offers variety of food options and excellent service. They are
+              always happy to adjust the recipe for their customers, because
+              they believe that everyone deserves a perfect meal.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Problem</h2>
+            <p>
+              Many people with allergies or specific food preferences struggle
+              to search for the appropriate meals in the menu.
+            </p>
+          </div>
+          <div class="col">
+            <h2>Goal</h2>
+            <p>
+              Design a brand new ordering app for the Secret Garden restaurant
+              to help people make more conscious food decisions and find their
+              perfect meals.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>My Role</h2>
+            <p>
+              Role: UX Designer, UX Researcher<br />Duration: November-December
+              2021<br />Platform: iOS Mobile App<br />Team: Dinara Shadyarova
+            </p>
+          </div>
+          <div class="col">
+            <h2>Responsibilities</h2>
+            <ul>
+              <li>Conducting interviews</li>
+              <li>Paper and digital wireframing</li>
+              <li>Low and high-fidelity prototyping</li>
+              <li>Conducting usability studies</li>
+              <li>Accounting for accessibility</li>
+              <li>Iterating on designs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="research">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <h1 class="paragraph-heading">User Research</h1>
+          </div>
+          <div class="col-8">
+            <p>
+              I conducted interviews and created empathy maps to understand the
+              users I’m designing for and their needs. A primary user group
+              identified through research was working adults who don’t have time
+              to cook meals but want to stay conscious about what they eat for
+              different reasons (health, religion, allergy).<br /><br />Even
+              though it might seem that being busy at work is the only reason
+              why working adults don’t cook themselves, there could be many
+              other reasons, such as spending time with their families and
+              friends. They also prioritize their health by maintaining
+              work-life balance, so hobbies and leisure time are also important
+              for them. That’s why flexible food ordering service is so
+              convenient and important. It enables busy people with food
+              preferences/restrictions to quickly and easily find their perfect
+              meal, so they have more free time to spend taking care of
+              themselves and their close ones.
+            </p>
+          </div>
+        </div>
+        <div class="mini-container">
+          <h2>Pain Points</h2>
+          <div class="row">
+            <div class="col-6 d-flex flex-column align-items-center pe-5 pt-5">
+              <div class="circle">1</div>
+              <h3 class="pain-points-title">Time</h3>
+              <p class="pain-points-text">
+                Working adults are too busy spending time cooking meals
+              </p>
+            </div>
+            <div class="col-6  d-flex flex-column align-items-center ps-5 pt-5">
+              <div class="circle">2</div>
+              <h3 class="pain-points-title">Food Choice</h3>
+              <p class="pain-points-text">
+                Searching mechanism is not as convenient and flexible as it can
+                be. Choosing food can be challenging, especially if ordering
+                something new
+              </p>
+            </div>
+            <div class="col-6  d-flex flex-column align-items-center pe-5 pt-5">
+              <div class="circle">3</div>
+              <h3 class="pain-points-title">Delivery Time</h3>
+              <p class="pain-points-text">
+                Often the estimate delivery time is wrong which might ruin the
+                busy schedule of a working adult
+              </p>
+            </div>
+            <div class="col-6  d-flex flex-column align-items-center ps-5 pt-5">
+              <div class="circle">4</div>
+              <h3 class="pain-points-title">Accessibility</h3>
+              <p class="pain-points-text">
+                Applications for ordering food are not equipped with assistive
+                technologies, which excludes people with impairments. For
+                example, small font sizes, or absence of audio descriptions
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-container">
+          <h2>Persona</h2>
+          <img class="wireframe-img" src="../images/persona.png" alt="" />
+        </div>
+      </div>
+
+      <div class="problem-statement">
+        <h3 class="mb-4">Problem statement</h3>
+        <p class="m-0">
+          Maxim is a self-employed busy dad who needs a way to easily and
+          efficiently order dinner considering food ingredients because one of
+          his children has food allergies, and he wants to be sure his family is
+          safe eating delivered food.
+        </p>
+      </div>
+      <div class="container-fluid">
+        <h2 class="mb-4">User Journey Map</h2>
+        <p>
+          Mapping Maxim’s user journey showed importance of customization
+          features in food delivery apps. <br />Secret Garden app would be
+          helpful in these cases.
+        </p>
+        <p>
+          <strong>Persona:</strong> Maxim<br />
+          <strong>Goal:</strong> Find the right meal based on ingredients
+        </p>
+        <img class="wireframe-img" src="../images/userJourney.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section id="design">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <h1 class="paragraph-heading">Starting the design</h1>
+          </div>
+          <div class="col-8">
+            <h2 class="mb-4">Paper Wireframes</h2>
+            <p>
+              Iterating through several possible versions of the home screen
+              enabled me to spot some crucial features that are important for
+              the application, such as different filters in the search and
+              ability to “build a meal”.
+            </p>
+          </div>
+          <div class="col-12 mt-5 mb-5">
+            <img
+              class="heading-img mb-2"
+              src="../images/wireframe.jpeg"
+              alt=""
+            />
+            <p class="img-text">
+              Stars indicate the features that were selected for the application
+            </p>
+          </div>
+        </div>
+        <h2 class="mb-4">Digital Wireframes</h2>
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li>
+                One of the key findings from the research was an importance of a
+                good and flexible searching mechanism
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                The ability to fully customize a meal will benefit those users
+                for whom it is very important to be conscious about the
+                ingredients
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center img-container">
+        <div class="col-6">
+          <img class="wireframe-img" src="../images/home.png" alt="" />
+        </div>
+        <div class="col-6">
+          <img class="wireframe-img" src="../images/BM.png" alt="" />
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col align-self-center">
+            <h2 class="mb-4">Low-fidelity prototype</h2>
+            <p>
+              Low-fidelity prototype includes the main user flow for building a
+              customized meal (shown in a gif) and also the basic functionality
+              of the app, so we can use it in usability studies
+            </p>
+            <p>
+              View the Secret Garden
+              <a
+                href="https://www.figma.com/proto/zpTN21cdsU5mOKChpnvOAB/SecretGarden?node-id=41%3A5023&scaling=scale-down&page-id=41%3A4669&starting-point-node-id=41%3A5023"
+                target="_blank"
+                rel="noopener noreferrer"
+                >low-fidelity prototype</a
+              >
+            </p>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img class="lo-fi-img" src="../images/lo-fi.gif" alt="" />
+          </div>
+        </div>
+        <h2 class="mb-4">Usability study: findings</h2>
+        <p class="mb-3">
+          There were two rounds of usability studies:
+        </p>
+        <ul>
+          <li class="mb-2">
+            The first study was conducted on a low-fidelity prototype helping to
+            guide the design from wireframes to mockups.
+          </li>
+          <li>
+            The second study used a high-fidelity prototype and pointed out
+            minor problems that should be fixed
+          </li>
+        </ul>
+
+        <div class="row">
+          <div class="col-6">
+            <h3>Round one findings</h3>
+            <div class="mini-box-first me-2">
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="first-circle">
+                    1
+                  </div>
+                </div>
+                <p class="m-0">
+                  Users want to customize existing meals from the menu
+                </p>
+              </div>
+
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="first-circle">
+                    2
+                  </div>
+                </div>
+                <p class="m-0">Users want more intuitive filters</p>
+              </div>
+
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="first-circle">
+                    3
+                  </div>
+                </div>
+                <p class="m-0">
+                  Users want contact info of a delivery person and restaurant
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <h3 class="ms-2">Round two findings</h3>
+            <div class="mini-box-second ms-2">
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="second-circle">
+                    1
+                  </div>
+                </div>
+                <p class="m-0">
+                  Users need a more intuitive checkout process
+                </p>
+              </div>
+
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="second-circle">
+                    2
+                  </div>
+                </div>
+                <p class="m-0">
+                  Users need more information about the ingredients, such as
+                  icons and price
+                </p>
+              </div>
+
+              <div class="d-flex align-items-center my-4">
+                <div class="me-3">
+                  <div class="second-circle">
+                    3
+                  </div>
+                </div>
+                <p class="m-0">
+                  Users need a more obvious filter icon
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="refining-design">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="paragraph-heading mb-5">Refining the design</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2>Mockups</h2>
+            <p>
+              Based on the insights identified through the usability studies,
+              there were some changes applied to the design
+            </p>
+          </div>
+          <div class="col-12">
+            <h2>First Usability Study</h2>
+            <div class="row pt-3">
+              <div class="col-6">
+                <h5 class="problem-text">Problem</h5>
+                <p>
+                  Early designs allowed for customization only from scratch.
+                </p>
+              </div>
+              <div class="col-6">
+                <h5 class="solution-text">Solution</h5>
+                <p>
+                  After the first usability study, I added “template” feature,
+                  so users can choose existing meals from the menu and customize
+                  them.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-center mb-5">
+            <div class="d-flex flex-column align-items-center">
+              <p>
+                <strong class="problem-text">Before</strong> usability study 1
+              </p>
+              <img class="us-img" src="../images/template-1.png" alt="" />
+            </div>
+            <div class="align-self-center mx-3">
+              <img src="../images/arrow.png" alt="" />
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+              <p>
+                <strong class="solution-text">After</strong> usability study 1
+              </p>
+              <img class="us-img" src="../images/template-2.gif" alt="" />
+            </div>
+          </div>
+          <div class="col-12 mt-5">
+            <h2>Second Usability Study</h2>
+            <div class="row pt-3">
+              <div class="col-6">
+                <h5 class="problem-text">Problem</h5>
+                <p>
+                  After the second usability it became apparent that the
+                  checkout flow had some inconveniences. Such as busyness of the
+                  screen, but most importantly - confusion on order
+                  confirmation.
+                </p>
+              </div>
+              <div class="col-6">
+                <h5 class="solution-text">Solution</h5>
+                <p>
+                  I divided the checkout process into smaller steps to make
+                  screens look less busy. Additionally, I added status trackers
+                  to make the process more intuitive and avoid unwanted
+                  confirmation.
+                </p>
+              </div>
+            </div>
+
+            <p class="m-0 mt-3">
+              Checkout Process
+              <strong class="problem-text">before</strong> usability study 2
+            </p>
+          </div>
+          <div class="col-4">
+            <img src="../images/before-cart.png" alt="" />
+          </div>
+          <div class="col-4">
+            <img src="../images/before-checkout.png" alt="" />
+          </div>
+          <div class="col-4">
+            <img src="../images/before-confirm.png" alt="" />
+          </div>
+
+          <p class="m-0 mt-5 mb-3">
+            Checkout Process
+            <strong class="solution-text">after</strong> usability study 2
+          </p>
+          <div class="col-3">
+            <img class="after-img" src="../images/after-cart.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img class="after-img" src="../images/after-delivery.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img class="after-img" src="../images/after-payment.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img
+              class="after-img"
+              src="../images/after-confirmation.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <h2 class="km-title">Key mockups</h2>
+
+      <div class="row mockups">
+        <div class="col-3">
+          <img class="km-images" src="../images/km-menu.png" alt="" />
+        </div>
+        <div class="col-3">
+          <img class="km-images" src="../images/km-details.png" alt="" />
+        </div>
+        <div class="col-3">
+          <img class="km-images" src="../images/km-BM.png" alt="" />
+        </div>
+        <div class="col-3">
+          <img class="km-images" src="../images/km-filter.png" alt="" />
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col align-self-center">
+            <h2>High-fidelity prototype</h2>
+            <p>
+              The final high-fidelity prototype shows more functional user flows
+              for building customizable meals, as well as cleaner and more
+              intuitive checkout process.
+            </p>
+            <p>
+              Check the Secret Garden’s
+              <a
+                href="https://www.figma.com/proto/zpTN21cdsU5mOKChpnvOAB/SecretGarden?node-id=2%3A4087&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4176&show-proto-sidebar=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >high-fidelity prototype</a
+              >
+            </p>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img class="lo-fi-img" src="../images/hi-fi-prototype.gif" alt="" />
+          </div>
+        </div>
+      </div>
+      <h2 class="km-title">Accessibility considerations</h2>
+      <div class="accessibility-container">
+        <div class="row">
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="accessibility-circle">1</div>
+            <h3 class="accessibility-title">Food Choice</h3>
+            <p class="pain-points-text">
+              People with different food preferences/restrictions (allergies,
+              diets, religion, beliefs etc) can easily customize their meals and
+              the whole menu.
+            </p>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="accessibility-circle">2</div>
+            <h3 class="accessibility-title">Fonts/Icons with texts</h3>
+            <p class="pain-points-text">
+              The fonts of the text are easy-to-read. All important icons are
+              accompanied with text, so people with visual impairments can use
+              them too (with screenreader).
+            </p>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="accessibility-circle">3</div>
+            <h3 class="accessibility-title">Contrast</h3>
+            <p class="pain-points-text">
+              The colors were tested on accessibility sites, such as webaim.com,
+              and color-blindness.com. The contrast of the colors will be
+              convenient for people with some visual impairments and
+              colorblindness.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="takeaways">
+      <div class="container-fluid">
+        <h1 class="paragraph-heading mb-5">Takeaways</h1>
+        <div class="row">
+          <div class="col pe-3">
+            <h2 class="mb-3">Impact:</h2>
+            <p>
+              The main intention of the Secret Garden app’s customization
+              features was to make the ordering process convenient for people
+              with some food restrictions. But it turned out that other groups
+              of users also would like to be more conscious about their food
+              choices.
+            </p>
+            <p>
+              <em>
+                “If you need halal food and you exclude bacon, this app will
+                dominate everywhere!”</em
+              >
+            </p>
+            <p><em>“They have diet section, that’s cool”</em></p>
+            <p>
+              <em>
+                “I would like to be more conscious about what I eat, so I could
+                add vegetables and exclude sugar”</em
+              >
+            </p>
+          </div>
+          <div class="col ps-3">
+            <h2 class="mb-3">What I learned:</h2>
+            <p>
+              During the course of creating this project I learned a lot of
+              valuable lessons about the UX design in general.
+            </p>
+            <p>
+              The most crucial thing for me is the concept of putting users
+              front and center in all phases of the design process. I was
+              introduced to many tools that can contribute to the user-centered
+              design (empathy maps, personas, user journey etc). This mindset
+              gave the special meaning to the learning process.
+            </p>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-5">Next steps</h2>
+        <div class="row">
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="ns-circle mb-2">1</div>
+            <p class="pain-points-text">
+              Conduct another round of usability studies to validate whether the
+              pain points users experienced have been effectively addressed.
+            </p>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="ns-circle mb-2">2</div>
+            <p class="pain-points-text">
+              Conduct more user research to determine any new areas of need.
+            </p>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center pe-5">
+            <div class="ns-circle mb-2">3</div>
+            <p class="pain-points-text">
+              Add live order tracking on the map
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="connect">
+      <div class="container-fluid">
+        <h1>Let’s talk</h1>
+        <p>
+          Thank you for your time reviewing my work on the Secret Garden app!<br />Feel
+          free to contact me if you have any questions :)
+        </p>
+        <a
+          class="social-media-icon"
+          href="https://www.linkedin.com/in/dinara95/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a class="social-media-icon" href="mailto:dinara.uxdesign@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </section>
+    <div class="row">
+      <div class="d-flex footer-container justify-content-center">
+        <p class="footer-text align-self-center">
+          @Copyright 2021 Dinara Shadyarova
+        </p>
+      </div>
+    </div>
+    <!-- <p>@Copyright 2021 Dinara Shadyarova</p> -->
+  </body>
+</html>
