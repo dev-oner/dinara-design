@@ -9,6 +9,10 @@ hr {
   color: grey;
 }
 
+a {
+  color: #009fb7;
+}
+
 .navbar {
   padding: 0;
   background-color: #fdedd9;
@@ -88,6 +92,9 @@ hr {
 
 .project-card-img {
   width: 100%;
+}
+.learny {
+  width: 70%;
 }
 
 .project-tag {
@@ -198,6 +205,7 @@ hr {
   color: #4d4131;
   margin-top: 20px;
   margin-right: 30px;
+  text-decoration: none;
 }
 
 .resume-btn:hover {
@@ -205,6 +213,7 @@ hr {
   color: white;
   font-weight: 500;
   border-color: #4d4131;
+  text-decoration: none;
 }
 
 .social-media-icon {
