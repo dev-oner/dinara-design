@@ -29,11 +29,18 @@ a {
 }
 
 .home-container {
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  padding: 0 3% 0 10%;
+  justify-content: space-between;
 }
 
 .home-title-container {
-  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .home-title {
   font-size: 3.2rem;
@@ -48,9 +55,14 @@ a {
   letter-spacing: 0.05rem;
 }
 
+.home-img-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
 .home-img {
-  width: 60%;
-  /* margin-right: 0px; */
+  width: 100%;
 }
 
 .container-fluid {
@@ -111,7 +123,7 @@ a {
 .card-title {
   font-size: 1.8rem;
   letter-spacing: 0.09rem;
-  line-height: 2;
+  line-height: 1.2;
   font-weight: 600;
   padding-bottom: 15px;
 }
@@ -133,15 +145,8 @@ a {
 }
 
 #aboutMe .container-fluid {
-  /* padding: 150px 15% 100px 10%; */
-  padding: 150px 0% 150px 31%;
+  padding: 150px 2% 0 5%;
   height: auto;
-}
-
-.profile-img {
-  width: 50%;
-  height: 50%;
-  padding-right: 50px;
 }
 
 .aboutMe-title {
@@ -164,6 +169,26 @@ a {
   letter-spacing: 0.1rem;
   font-weight: 600;
   margin-bottom: 5%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 15% 25%;
+}
+
+.aboutMe-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img-container {
+  margin-right: 50px;
+}
+
+.profile-img {
+  width: 100%;
 }
 
 .more-info-box {
@@ -232,6 +257,17 @@ a {
   height: 90px;
 }
 
+.footer-chamomiles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-img {
+  width: 100%;
+}
+
 .footer-text {
   color: white;
   font-size: 1rem;
@@ -240,17 +276,180 @@ a {
   padding-left: 10%;
 }
 
-.footer-img {
-  width: 80%;
-}
-
 @media only screen and (max-width: 1500px) {
   #projects .container-fluid {
     padding: 150px 15% 100px;
   }
 
   #aboutMe .container-fluid {
-    padding: 150px 0% 150px 20%;
+    padding: 150px 2% 0 5%;
     height: auto;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 0 15% 10%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #projects .container-fluid {
+    background-color: #fffaf3;
+    padding: 80px 10% 50px;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.09rem;
+    line-height: 1.2;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+    margin-bottom: 20px;
+  }
+
+  .project-card-text {
+    padding: 30px 30px;
+  }
+
+  .project-card-img {
+    width: 60%;
+  }
+
+  .learny {
+    width: 40%;
+  }
+
+  #aboutMe .container-fluid {
+    padding: 100px 2% 0 5%;
+    height: auto;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0% 10%;
+  }
+  .profile-img-container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .profile-img {
+    width: 90%;
+  }
+  .footer-img {
+    width: 20%;
+  }
+  .aboutMe-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #home .container-fluid {
+    height: 80vh;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    padding: 40% 3% 0 10%;
+    justify-content: space-between;
+  }
+
+  .home-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 0.16rem;
+    line-height: 2;
+  }
+
+  .home-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+  }
+
+  .home-img-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .home-img {
+    width: 60%;
+  }
+
+  #projects .container-fluid {
+    background-color: #fffaf3;
+    padding: 80px 5% 50px;
+    height: auto;
+  }
+
+  #aboutMe .container-fluid {
+    padding: 80px 2% 0 5%;
+    height: auto;
+  }
+
+  .footer-img {
+    width: 30%;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.09rem;
+    line-height: 1.2;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+    margin-bottom: 20px;
+  }
+
+  .project-card-text {
+    padding: 30px 30px;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 0% 0%;
+  }
+  .profile-img-container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .profile-img {
+    width: 100%;
+  }
+  .aboutMe-text-container {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -66,17 +66,19 @@
             </ul>
           </div>
         </nav>
-        <div class="home-container">
-          <div class="home-title-container">
+        <div class="row splash-screen">
+          <div class="col-lg-8 align-self-center home-title-container">
             <h1 class="home-title">Hello, I'm Dinara!</h1>
             <p class="home-subtitle">a junior UX Designer</p>
           </div>
-          <div class="home-img-container">
-            <img
-              class="home-img"
-              src="images/chamomiles.png"
-              alt="chamomiles-img"
-            />
+          <div class="col-lg-4 home-img-container">
+            <div class="row home-img-container2">
+              <img
+                class="home-img"
+                src="images/chamomiles.png"
+                alt="chamomiles-img"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -87,28 +89,6 @@
         <div class="row">
           <div class="col">
             <h1 class="projects-title">My study projects</h1>
-          </div>
-        </div>
-
-        <div class="row projects-card">
-          <div class="col-lg-5 align-self-center project-card-text">
-            <h1 class="card-title">Learny</h1>
-            <p class="card-subtitle">
-              This project was for the Google UX Design Professional Certificate
-              Program at Coursera.
-            </p>
-            <div class="row">
-              <a href="learny/index.html">View case study</a>
-            </div>
-          </div>
-          <div class="col-lg-7 img-box">
-            <div class="d-flex h-100 flex-row justify-content-center">
-              <img
-                class="align-self-center project-card-img learny"
-                src="images/learny/home_cropped.png"
-                alt=""
-              />
-            </div>
           </div>
         </div>
         <div class="row projects-card">
@@ -155,32 +135,51 @@
             </div>
           </div>
         </div>
+
+        <div class="row projects-card">
+          <div class="col-lg-5 align-self-center project-card-text">
+            <h1 class="card-title">Learny</h1>
+            <p class="card-subtitle">
+              This project was for the Google UX Design Professional Certificate
+              Program at Coursera.
+            </p>
+            <div class="row">
+              <a href="learny/index.html">View case study</a>
+            </div>
+          </div>
+          <div class="col-lg-7 img-box">
+            <div class="d-flex h-100 flex-row justify-content-center">
+              <img
+                class="align-self-center project-card-img learny"
+                src="images/learny/home_cropped.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="aboutMe">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-10 col">
-            <div class="about-container">
-              <div class="profile-img-container">
-                <img
-                  class="profile-img"
-                  src="images/dinara.jpeg"
-                  alt="profile-img"
-                />
-              </div>
-
-              <div class="aboutMe-text-container">
+      <div class="row">
+        <div class="col-9">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-center">
+              <img
+                class="profile-img"
+                src="images/dinara.jpeg"
+                alt="profile-img"
+              />
+              <div class="d-flex flex-column">
                 <h1 class="aboutMe-title">Hello again!</h1>
                 <p class="aboutMe-subtitle">
                   I’m Dinara! An emotional human being. Google career
                   certificate student :D
                 </p>
                 <p class="aboutMe-text">
-                  I’ve found myself in ice hockey, English learning/teaching,
-                  and software development before finally choosing UX design as
-                  my career path.
+                  I’ve found myself in ice-hockey, English learning/teaching,
+                  software development before finally choosing UX-design as my
+                  career path.
                 </p>
                 <p class="aboutMe-text">
                   I am passionate about the idea of contributing to a more
@@ -202,7 +201,7 @@
                     class="resume-btn"
                     type="button"
                     name="button"
-                    href="https://drive.google.com/file/d/1qpQVt2jw_CjVyEUYq8pjLjAg5zWCpTJ7/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1P64cjpHMmllzL-rKeLU-qO98aHjXgKbq/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -226,19 +225,21 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 footer-chamomiles-container">
-            <img
-              class="footer-img align-self-end"
-              src="images/chamomiles.png"
-              alt="chamomiles-img"
-            />
-          </div>
+        </div>
+        <div class="col-3 d-flex justify-content-end">
+          <img
+            class="footer-img align-self-end"
+            src="images/chamomiles.png"
+            alt="chamomiles-img"
+          />
         </div>
       </div>
-      <div class="d-flex footer-container">
-        <p class="footer-text align-self-center">
-          @Copyright 2022 Dinara Shadyarova
-        </p>
+      <div class="row">
+        <div class="d-flex footer-container">
+          <p class="footer-text align-self-center">
+            @Copyright 2022 Dinara Shadyarova
+          </p>
+        </div>
       </div>
     </section>
   </body>
