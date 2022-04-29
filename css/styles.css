@@ -189,6 +189,7 @@ a {
 
 .profile-img {
   width: 100%;
+  object-fit: contain;
 }
 
 .more-info-box {
@@ -347,6 +348,7 @@ a {
   }
   .profile-img {
     width: 90%;
+    object-fit: contain;
   }
   .footer-img {
     width: 20%;
@@ -449,6 +451,7 @@ a {
   }
   .profile-img {
     width: 100%;
+    object-fit: contain;
   }
   .aboutMe-text-container {
     display: flex;
