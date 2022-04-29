@@ -397,6 +397,7 @@ a {
 
   .home-img {
     width: 50%;
+    object-fit: contain;
   }
 
   #projects .container-fluid {
