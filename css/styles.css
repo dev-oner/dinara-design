@@ -13,12 +13,18 @@ a {
   color: #009fb7;
 }
 
+.test {
+  background-color: red;
+  padding: 0;
+  margin: 0;
+}
+
 .container-fluid {
   height: 100vh;
   padding: 0;
 }
 
-/* Navbar */
+/* Navbar Big */
 
 .navbar {
   padding: 0;
@@ -34,7 +40,7 @@ a {
   margin-left: 50px;
 }
 
-/* Home */
+/* Home Big */
 
 .home-container {
   display: flex;
@@ -74,7 +80,7 @@ a {
   width: 100%;
 }
 
-/* Projects */
+/* Projects Big */
 
 #projects .container-fluid {
   background-color: #fffaf3;
@@ -110,7 +116,6 @@ a {
 
 .project-tag {
   background-color: #ecd9fd;
-  /* background-color: #fffdfa; */
   border-radius: 15px;
   padding: 7px 20px;
   display: inline-block;
@@ -143,11 +148,10 @@ a {
   padding: 30px 30px 0;
 }
 
-/* About me */
+/* About me Big */
 
-#aboutMe .container-fluid {
-  padding: 150px 2% 0 5%;
-  height: auto;
+.about-container {
+  padding: 150px 0 15% 25%;
 }
 
 .aboutMe-title {
@@ -172,17 +176,18 @@ a {
   margin-bottom: 5%;
 }
 
-.about-container {
-  padding: 80px 0 15% 25%;
-}
-
 .aboutMe-text-container {
   display: flex;
   flex-direction: column;
 }
 
+/* Profile Img Big */
+
 .profile-img-container {
-  margin-right: 50px;
+  padding: 0 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .profile-img {
@@ -235,7 +240,7 @@ a {
   color: #4d4131;
 }
 
-/* Footer */
+/* Footer Big*/
 
 .footer-container {
   background-color: #8d7659;
@@ -262,18 +267,13 @@ a {
 }
 
 @media only screen and (max-width: 1500px) {
-  /* Home */
-  /* Projects */
+  /* Home Medium */
+  /* Projects Medium */
   #projects .container-fluid {
     padding: 150px 15% 100px;
   }
 
-  /* About me */
-
-  #aboutMe .container-fluid {
-    padding: 150px 2% 0 5%;
-    height: auto;
-  }
+  /* About me Medium */
 
   .about-container {
     padding: 80px 0 15% 10%;
@@ -281,8 +281,8 @@ a {
 }
 
 @media only screen and (max-width: 991px) {
-  /* Home */
-  /* Projects */
+  /* Home Small */
+  /* Projects Small */
   #projects .container-fluid {
     background-color: #fffaf3;
     padding: 80px 10% 50px;
@@ -316,29 +316,27 @@ a {
     width: 40%;
   }
 
-  /* About me */
-
-  #aboutMe .container-fluid {
-    padding: 100px 2% 0 5%;
-    height: auto;
-  }
+  /* About me Small */
 
   .about-container {
-    padding: 80px 0 0 10%;
+    padding: 80px 2% 2% 2%;
   }
+
+  /* Profile Img Small */
+
   .profile-img-container {
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 0 0 20px 0;
   }
+
   .profile-img {
     width: 90%;
     object-fit: contain;
   }
+
   .footer-img {
     width: 20%;
   }
+
   .aboutMe-text-container {
     display: flex;
     flex-direction: column;
@@ -346,7 +344,7 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
-  /* Home */
+  /* Home XS */
   #home .container-fluid {
     height: 80vh;
   }
@@ -390,15 +388,10 @@ a {
     object-fit: contain;
   }
 
-  /* Projects */
+  /* Projects XS */
   #projects .container-fluid {
     background-color: #fffaf3;
     padding: 80px 5% 50px;
-    height: auto;
-  }
-
-  #aboutMe .container-fluid {
-    padding: 80px 2% 0 5%;
     height: auto;
   }
 
@@ -425,22 +418,23 @@ a {
     padding: 30px 30px;
   }
 
-  /* About me */
+  /* About me XS */
 
   .about-container {
     padding: 80px 2% 2% 2%;
   }
 
+  /* Profile Img XS */
+
   .profile-img-container {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 0 0 20px 0;
   }
+
   .profile-img {
     width: 100%;
     object-fit: contain;
   }
+
   .aboutMe-text-container {
     display: flex;
     flex-direction: column;
