@@ -332,6 +332,7 @@ a {
   #aboutMe .container-fluid {
     padding: 100px 2% 0 5%;
     height: auto;
+    background-color: red;
   }
 
   .about-container {
@@ -412,6 +413,7 @@ a {
   #aboutMe .container-fluid {
     padding: 80px 2% 0 5%;
     height: auto;
+    background-color: blue;
   }
 
   .footer-img {
