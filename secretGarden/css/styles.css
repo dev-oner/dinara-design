@@ -93,11 +93,21 @@ a {
 }
 
 .arrowContainer {
-  display: flex;
   height: 100%;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imgContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgVerticalContainer {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Headings section */
