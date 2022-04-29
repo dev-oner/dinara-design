@@ -185,14 +185,14 @@ a {
 
 .profile-img-container {
   padding: 0 50px 0 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .profile-img {
   width: 100%;
   object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .more-info-box {
@@ -331,6 +331,9 @@ a {
   .profile-img {
     width: 90%;
     object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer-img {
@@ -433,6 +436,9 @@ a {
   .profile-img {
     width: 100%;
     object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .aboutMe-text-container {
