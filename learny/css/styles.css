@@ -88,6 +88,12 @@ a {
   margin-bottom: 10px;
 }
 
+.bigImgContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Headings section */
 
 .big-heading {
@@ -155,16 +161,20 @@ a {
   border-color: #cfdbed;
   border-radius: 20px;
   object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .persona-img-small {
   padding: 0 30px;
-  width: 70%;
+  width: 100%;
   border-width: thin;
   border: 1px solid;
   border-color: #cfdbed;
   border-radius: 20px;
   object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prototype-img {
