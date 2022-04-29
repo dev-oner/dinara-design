@@ -88,7 +88,7 @@ a {
   margin-bottom: 10px;
 }
 
-.bigImgContainer {
+.imgContainer {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -185,6 +185,8 @@ a {
 .us-img {
   width: 100%;
   object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .km-images-variation {
