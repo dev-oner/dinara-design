@@ -18,7 +18,7 @@ ol {
 }
 
 a {
-  color: #009fb7;
+  color: #186ebe;
 }
 
 .padding-right {
@@ -167,20 +167,18 @@ a {
 
 .persona-img {
   width: 100%;
-  border-width: thin;
-  border: 1px solid;
-  border-color: #cfdbed;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(65, 77, 89, 0.2),
+    0 6px 20px 0 rgba(65, 77, 89, 0.2);
   object-fit: contain;
 }
 
 .persona-img-small {
   padding: 0 30px;
   width: 70%;
-  border-width: thin;
-  border: 1px solid;
-  border-color: #cfdbed;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(65, 77, 89, 0.2),
+    0 6px 20px 0 rgba(65, 77, 89, 0.2);
   object-fit: contain;
 }
 

@@ -1,7 +1,7 @@
 /* Basic tags section*/
 
 body {
-  background-color: #fffdfa;
+  background-color: #fffcf5;
 }
 
 h2 {
@@ -18,7 +18,7 @@ ol {
 }
 
 a {
-  color: #009fb7;
+  color: #186ebe;
 }
 
 .padding-right {
@@ -104,6 +104,13 @@ a {
   margin-right: auto;
 }
 
+.redesignContainer {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(65, 77, 89, 0.2),
+    0 6px 20px 0 rgba(65, 77, 89, 0.2);
+}
+
 .imgVerticalContainer {
   display: block;
   margin-top: auto;
@@ -171,20 +178,18 @@ a {
 
 .persona-img {
   width: 100%;
-  border-width: thin;
-  border: 1px solid;
-  border-color: #cfdbed;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(65, 77, 89, 0.2),
+    0 6px 20px 0 rgba(65, 77, 89, 0.2);
   object-fit: contain;
 }
 
 .persona-img-small {
   padding: 0 30px;
   width: 70%;
-  border-width: thin;
-  border: 1px solid;
-  border-color: #cfdbed;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(65, 77, 89, 0.2),
+    0 6px 20px 0 rgba(65, 77, 89, 0.2);
   object-fit: contain;
 }
 
@@ -222,7 +227,7 @@ a {
   border-radius: 100px;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #4a4025;
   font-family: "Roboto Slab", serif;
   font-size: 1.25rem;
   margin-bottom: 10px;
@@ -244,27 +249,27 @@ a {
 /* Colors Section */
 
 .bg-red {
-  background-color: #bf4e26;
+  background-color: #ffc122;
 }
 
 .txt-red {
-  color: #bf4e26;
+  color: #4a4025;
 }
 
 .bg-dark-green {
-  background-color: #328965;
+  background-color: #ffc122;
 }
 
 .txt-dark-green {
-  color: #328965;
+  color: #4a4025;
 }
 
 .bg-gray {
-  background-color: #828282;
+  background-color: #ffc122;
 }
 
 .txt-gray {
-  color: #828282;
+  color: #4a4025;
 }
 
 .problem-text {
@@ -278,27 +283,27 @@ a {
 }
 
 .bg-light-purple {
-  background-color: #f4f0f7;
+  background-color: #ffefc5;
 }
 
 .bg-light-green {
-  background-color: #e9f7f1;
+  background-color: #ffefc5;
 }
 
 .bg-purple {
-  background-color: #d7aaff;
+  background-color: #ffc122;
 }
 
 .bg-green {
-  background-color: #96ceb4;
+  background-color: #ffc122;
 }
 
 /* Banner Section */
 
 .problem-statement {
-  background-color: #bf4e26;
+  background-color: #ffc122;
   text-align: center;
-  color: white;
+  color: #4a4025;
   font-family: "Montserrat", sans-serif;
   padding: 50px 23%;
 }
@@ -320,7 +325,7 @@ a {
 
 .mockups-variation {
   padding: 3% 5%;
-  background-color: #e9f7f1;
+  background-color: #ffefc5;
 }
 
 /* Footer */
